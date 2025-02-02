@@ -12,13 +12,12 @@ body, html {
   }
   .menu {
     list-style: none;
-    display: flex;          /* Permet d'aligner horizontalement */
-    justify-content: center;/* Centrage horizontal du menu */
+    display: flex;         
+    justify-content: center;
   }
   .menu li {
     margin: 0 20px;
   }
-
   .content {
     padding: 20px;
     text-align: center;
@@ -26,11 +25,9 @@ body, html {
   .highlight {
     color: #00e0ff;
   }
-  /* Circle Image */
   .image-container {
     position: relative;
   }
-  
   .image-circle {
     width: 500px;
     height: 500px;
@@ -39,20 +36,17 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 5px 30px rgba(0, 224, 255, 0.5); /* Circle shadow */
+    box-shadow: 0 5px 30px rgba(0, 224, 255, 0.5); 
     margin: 0 auto;
     position: relative;
   }
-  
   .profile-img {
     width: 460px;
     height: 460px;
     border-radius: 50%;
     object-fit: cover;
     position: absolute;
-    /* top: 50px; Adjusts the image's position within the circle */
   }
-
   .navbar {
     background-color: #021024;
    
@@ -60,24 +54,23 @@ body, html {
     font-size: 20px;
   }
   .col-md-6 {
-    width: 50%;  /* 6 colonnes sur 12, soit la moitié de la largeur */
-    padding: 15px;  /* Espacement interne similaire à Bootstrap */
-    box-sizing: border-box;  /* Évite que le padding affecte la largeur */
+    width: 50%;  
+    padding: 15px;
+    box-sizing: border-box;
 }
 .text-center {
   text-align: center;
 }
 
-/* Responsive : pleine largeur sur petit écran */
 @media (max-width: 767px) {
     .col-md-6 {
-        width: 100%;  /* Pleine largeur sur mobile */
+        width: 100%;
     }
     .text-md-start {
       text-align: left;
     }
 }
 .row {
-  display: flex;        /* Active Flexbox */
-  align-items: center;  /* Centre les éléments verticalement */
+  display: flex;      
+  align-items: center;
 }
